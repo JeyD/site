@@ -1,0 +1,346 @@
+h1{	text-align:center;
+	font-weight:bolt;
+	font-family:Alien Encounters;
+	font-size:90px;
+	color:white;
+}
+
+
+embed{
+	width:320px;
+	height:260px;
+	margin-left:130px;
+	padding:10px 5px;
+}
+
+.pictures{
+	padding:20px 20px;
+	width:300px;
+	height:150px;
+	margin-left:100px;
+	margin-top:75px;
+	padding-top:0px;
+}
+.picRight{
+	float:right;
+	margin-right:30px;
+}
+
+
+
+/* ...........SEARCH BAR............ */
+
+input[type="search"]{
+		position:relative;
+		left:40%;
+		top:-40px;
+		width:300px;
+		padding:7px;
+		border:2px solid #334;
+}
+input[type="submit"]{
+		position:relative;
+		left:41%;
+		top:-40px;
+		padding:7px;
+		background:#607d8b;
+		border:1px solid black;
+		color:white;
+		margin-left:-5px;
+		cursor:pointer;
+}
+
+#submit:hover{	background:#333;
+				transition:all 0.40s;
+}
+
+
+/* ............SIDEBAR............. */
+				
+#sidebar{
+	background:black;
+	width:250px;
+	height:100%;
+	display:block;
+	position:fixed;
+	text-align:center;
+	left:-200px;
+	top:0px;
+	transition:left 0.5s linear;
+}	
+#sidebar.visible{
+	left:0px;
+	transition:left 0.5s linear;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+	
+}	
+
+ul li{
+	liste-style:none;
+	font-family:Alien Encounters;
+	font-weight:bolt;
+	font-size:25px;
+	color:white;
+}
+
+	
+ul li a{
+	background:black;
+	color:#ccc;
+	border-bottom:50px solid black;
+	display:block;
+	width:200px;
+	padding:10px;
+}	
+
+
+#sidebar-btn{
+	display:inline-block;
+	vertical-align:middle;
+	width:35px;
+	height:15px;
+	cursor:pointer;	
+	margin:30px;
+	position:absolute;
+	top:0px;
+	right:-75px;
+	
+}
+
+#sidebar-btn span{
+	height:5px;
+	background:white;
+	margin-bottom:5px;
+	display:block;
+}
+
+#sidebar-btn span:nth-child(2){
+	width:75%;
+}
+
+#sidebar-btn span:nth-child(3){
+	
+	width:50%;
+	
+}
+
+/* ...........PARAGRAPHE STYLE............ */
+p{
+	
+	text-align:center;
+	color:white;
+	width:30px;
+	
+	padding-top:3px;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:20px;
+	/*2nd way
+	font:bold italic 15px Tahoma;
+	color:red;*/
+}
+
+hr{
+	width:300px;
+	margin-top:0px;
+}
+/* ...........TABLE STYLE............ */
+
+table{
+	width:1800px;
+	height:10px;
+	border:none;
+	text-align:center;
+	margin:20px 0px -120px 50px;
+}
+
+tr{ color:white;
+	font-family:Alien Encounters;
+	border:none;
+	text-align:center;
+	padding:0;
+}
+	
+td{border:none;
+	width:200px;
+	padding:0;
+}
+
+/* ...........STYLEs............ */
+
+body{
+	background-image:url(background.jpg);
+	background-repeat: no-repeat; 
+	background-attachment: fixed 
+}
+
+
+h2{	font-family:Alien Encounters;
+	font-weight:bolt;
+	text-decoration:none;
+	text-align:center;
+	padding-right:20px;
+	font-size:35px;
+	color:white;
+	margin:0px;
+}
+
+h3 {
+	font-family:Alien Encounters;
+	font-weight:bolt;
+	text-decoration:none;
+	text-align:center;
+	padding-right:20px;
+	font-size:35px;
+	color:white;
+	margin:0px;
+}
+
+h4{
+	font-family:Arial;
+	font-size:20px;
+	text-align:right;
+	padding-right:70px;
+	padding-top:3px;
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+h5{
+	font-size:25px;
+}
+
+a:link{	color:white;
+		text-decoration:none;
+		text-align:center;}
+		
+a:visited{color:#facad0;}
+
+a:hover{background-color:none;
+		color:white;
+		text-decoration:underline;
+		font-weight:bold;}
+		
+/*---------------------*/
+/*---------------------*/
+/*--------LOGIN-------------*/
+.container{
+	width:500px;
+	height:400px;
+	text-align:center;
+	background-color:rgba(52,73,94,0.7);
+	margin:0 auto;
+	border-radius:4px;
+	margin: 0 auto;
+	margin-top: 150 px;
+}
+.container img{
+	width:120px;
+	height:120px;
+	margin-top:0px;
+	margin-bottom:30px;
+}
+input[type="text"],input[type="password"]{
+	height:45px;
+	width:300px;
+	font-size:18px;
+	margin-bottom:20px;
+	text-align:center;
+	color:black;	
+	border-radius:10px;
+	border:none;
+}
+
+.form-input::before{
+	content:"\f007";
+	position:absolute;
+	font-family:"FontAwesome";
+	font-size:35px;
+	color:#ccc;
+	padding-left:5px;
+	padding-top:5px;
+}
+
+.form-input:nth-child(2)::before{
+	content:"\f023";
+}
+
+.button{
+	height:40px;
+	width:130px;
+	padding:15px 25 px;
+	color:#bd91d4;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:20px;
+	border:none;
+	border-radius:6px;
+	background-color:#ccc;
+	margin-top:15px;
+	cursor:pointer;
+}
+
+.button:hover{
+	background:#bd91d4;
+	color:#ccc;
+	transition:all 0.10s;
+}
+
+/*......................................*/
+/*...............SIGNUP.................*/
+/*......................................*/
+
+.container_2{
+	width:500px;
+	height:700px;
+	text-align:center;
+	background-color:rgba(52,73,94,0.7);
+	border-radius:4px;
+	margin:0 auto;
+	margin-top:1 px;
+}
+
+.container_2 img{
+	width:120px;
+	height:120px;
+	margin-top:0px;
+	margin-bottom:30px;
+}
+
+input[type="sign"],input[type="password2"]{
+	height:23px;
+	width:300px;
+	font-size:18px;
+	margin-bottom:0px;
+	text-align:center;
+	color:black;	
+	border-radius:10px;
+	border:none;
+}
+
+.button{
+	height:40px;
+	width:130px;
+	padding:15px 25 px;
+	color:#bd91d4;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:20px;
+	border:none;
+	border-radius:6px;
+	background-color:#ccc;
+	margin-top:15px;
+	cursor:pointer;
+	
+}
+
+.button:hover{
+	background:#bd91d4;
+	color:#ccc;
+	transition:all 0.10s;
+}
